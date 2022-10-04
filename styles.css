@@ -225,17 +225,16 @@ li{
 .menubar {
     display: flex;
     flex-direction: row;
-    width: 92%;
+    width: 100%;
     z-index: 1;
     bottom: 0;
     position: fixed;
     justify-content: space-around;
   /*  backdrop-filter: blur(5px);*/
     background-color:#C7F2A4;
-    border-radius: 50px 50px 50px 50px ;
-    bottom:20px;
-    left:4%;
-    right:4%;
+  /*  border-radius: 50px 50px 50px 50px ;*/
+    bottom:5px;
+
 
 
 }
@@ -244,7 +243,7 @@ li{
     text-decoration: none;
     color: black;
 
-    padding: 20px;
+    padding: 12px;
 
 
 
@@ -306,7 +305,7 @@ th {
   font-size: 25px;
 }
 table{
-  width: 70%;
+  width: 80%;
   margin:50px auto;
   font-size: 22px;
 }
